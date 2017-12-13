@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<title>MVVM | Contact Us</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vollkorn SC">
+<link rel="stylesheet" media="screen and (min-width: 481px)" href="large.css">
+<link rel="stylesheet" media="screen and (max-width: 480px)" href="small.css">
+
+<body>
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-opacity-min">
+            <a href="index.html"><img src="imgs/logo2.png" class="w3-round-xxlarge w3-margin-left w3-animate-top" alt="MVVM logo" style="width:80px">
+            </a>
+            <div class="w3-dropdown-hover">
+                <button class="w3-large w3-padding-large w3-button" title="More">Directory<i class="fa fa-caret-down"></i>
+                </button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="home.html" class="w3-bar-item w3-button">Home</a>
+                    <a href="gallery.html" class="w3-bar-item w3-button">Gallery</a>
+                    <a href="partners.html" class="w3-bar-item w3-button">Partners</a>
+                    <a href="facility.html" class="w3-bar-item w3-button">Our Facility</a>
+                    <a href="contact.html" class="w3-bar-item w3-button">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <h1>Get in touch.</h1>
+        <h3> If you would like to have us turn your vintage motorcycle dream into a reality, contact us below. </h3>
+
+        <div class="container">
+            <form action="/getintouch.php" method="get">
+                <label for="fname">Give us your first name.</label>
+                <input type="text" id="fname" name="firstname" placeholder="*">
+
+                <label for="lname">Give us your last name.</label>
+                <input type="text" id="lname" name="lastname" placeholder="*">
+
+                <label for="phone">Give us your phone number.</label>
+                <input type="text" id="phone" name="phone" placeholder="*">
+
+                <label for="subject">Give us the details.</label>
+                <textarea id="subject" name="subject" placeholder="*" style="height:200px"></textarea>
+
+                <a href="thankyou.html" class="submit"> Submit. </a>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

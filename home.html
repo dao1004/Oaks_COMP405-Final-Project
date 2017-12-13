@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<title>MVVM | Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vollkorn SC">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Vollkorn SC"
+    }
+    body,
+    html {
+        height: 100%;
+    }
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3,
+    .bgimg-4 {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bgimg-1 {
+        background-image: url('imgs/homebg1.jpg');
+        min-height: 100%;
+    }
+    .bgimg-2 {
+        background-image: url("imgs/homebg2.jpg");
+        min-height: 500px;
+    }
+    .bgimg-3 {
+        background-image: url("imgs/homebg3.jpg");
+        min-height: 500px;
+    }
+    .bgimg-4 {
+        background-image: url("imgs/homebg4.jpg");
+        min-height: 500px;
+    }
+    @media only screen and (max-device-width: 1024px) {
+        .bgimg-1,
+        .bgimg-2,
+        .bgimg-3,
+        .bgimg-4 {
+            background-attachment: scroll;
+        }
+    }
+</style>
+
+<body>
+
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-opacity-min">
+            <a href="index.html"><img src="imgs/logo2.png" class="w3-round-xxlarge w3-margin-left w3-animate-top" alt="MVVM logo" style="width:80px">
+            </a>
+            <div class="w3-dropdown-hover">
+                <button class="w3-large w3-padding-large w3-button" title="More">Directory<i class="fa fa-caret-down"></i>
+                </button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="home.html" class="w3-bar-item w3-button">Home</a>
+                    <a href="gallery.html" class="w3-bar-item w3-button">Gallery</a>
+                    <a href="partners.html" class="w3-bar-item w3-button">Partners</a>
+                    <a href="facility.html" class="w3-bar-item w3-button">Our Facility</a>
+                    <a href="contact.html" class="w3-bar-item w3-button">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bgimg-1 w3-display-container">
+        <div class="w3-display-top" style="padding-top:50px">
+            <p class="w3-center w3-text-black w3-xxxlarge w3-animate-top">Welcome to the Club.</p>
+        </div>
+        <div class="w3-display-left">
+            <p><img src="imgs/logo1.png" class="w3-round-xxlarge w3-margin-left" alt="MVVM logo" style="width:25%">
+            </p>
+        </div>
+    </div>
+
+    <div class="w3-content w3-container w3-padding-64">
+        <h1 class="w3-center w3-text-black">What We Do.</h1>
+        <h2 class="w3-center w3-text-black">We provide repair, restoration, and custom fabrication services of the highest caliber for vintage motorcycles, for customers of the Merrimack Valley and beyond.</h2>
+    </div>
+
+    <div class="bgimg-2 w3-display-container">
+    </div>
+
+    <div class="w3-content w3-container w3-padding-64">
+        <h1 class="w3-center w3-text-black">Our Specialty.</h1>
+        <h2 class="w3-center w3-text-black">Our specialty lies in the restoration and custom design of cafe-racer styled motorcycles. However, we pride ourselves on versatility, and can deliver other types of custom builds at the request of the customer.</h2>
+    </div>
+
+    <div class="bgimg-3 w3-display-container">
+    </div>
+
+    <div class="w3-content w3-container w3-padding-64">
+        <h1 class="w3-center w3-text-black">Our Partners.</h1>
+        <h2 class="w3-center w3-text-black">We also bring to the table several industry-leading partners to ensure our customers receive the highest quality results in every department.</h2>
+        <h1 class="w3-center w3-text-black">Partners Include.</h1>
+        <ul class="w3-ul w3-border w3-center w3-text-black w3-xlarge">
+            <li><a href="http://www.fluid-grafix.com/">Fluid-Grafix of Derry NH</a>
+            </li>
+            <li><a href="https://roadtrippers.com/us/merrimack-nh/shopping/all-tuned-up-garage">All Tuned Up Garage of Merrimack NH</a>
+            </li>
+            <li><a href="http://www.rrcycles.com/cart/">R&R Cycle Engines of Manchester NH</a>
+            </li>
+            <li><a href="http://www.stones-custom.com/index2.htm">Stone's Custom of Northborough MA</a>
+            </li>
+            <li><a href="https://www.cokertire.com/tires/styles/motorcycle-bike.html">Coker Vintage Motorcycle Tires</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="bgimg-4 w3-display-container">
+    </div>
+
+    <footer class="w3-center w3-white">
+        <a href="home.html"><img src="imgs/logo2.png" class="w3-round-xxlarge w3-margin-left w3-animate-bottom" alt="MVVM logo" style="width:80px">
+        </a>
+    </footer>
+
+</body>
+
+</html>
